@@ -63,14 +63,14 @@ inquirer
 
         const userInfo = 
         `# Project Title: ${response.projectTitle}
-## Description: ${response.description}
-## Installation: ${response.install}
-## Usage: ${response.usage}
-## Screenshot: ${response.screenshot}
-## Collaborators: ${response.collab}
-## How to contribute: ${response.contribute}
-## How to report issues: ${response.issue}
-## License: ${response.license}`;
+# Description: \n\n ${response.description} \n\n
+## Installation: \n\n ${response.install} \n\n
+## Usage: \n\n ${response.usage} \n\n
+## Screenshot: \n\n ${response.screenshot} \n\n
+# Collaborators: \n\n ${response.collab} \n\n
+## How to contribute: \n\n ${response.contribute} \n\n
+## How to report issues: \n\n ${response.issue} \n\n
+## License: \n\n ${response.license}`;
 
         fs.writeFile('README.md', userInfo,
             (err) =>
