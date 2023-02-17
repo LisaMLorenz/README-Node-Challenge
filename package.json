@@ -8,8 +8,16 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "inquirer": "^6.5.2"
+    "inquirer": "^6.5.0"
   },
   "keywords": [],
-  "description": ""
+  "description": "Tailored prompts help you to create coherent README files for your project - all via the VS Code Terminal :)",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LisaMLorenz/README-Node-Challenge.git"
+  },
+  "bugs": {
+    "url": "https://github.com/LisaMLorenz/README-Node-Challenge/issues"
+  },
+  "homepage": "https://github.com/LisaMLorenz/README-Node-Challenge#readme"
 }
