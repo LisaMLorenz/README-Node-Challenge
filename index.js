@@ -51,9 +51,10 @@ const questions = [
         name: 'email',
     },
     {
-        type: 'input',
-        message: 'Choose a license',
+        type: 'list',
+        message: 'Would you like to disclose any license?',
         name: 'license',
+        choices: ['None','MIT','Apache 2.0', 'GNU v3.0', 'BSD 2-Clause', 'BSD 3-Clause', 'Boost', 'Eclipse', 'Mozilla Public', 'The Unlicense']
     },
 
 ];
@@ -77,7 +78,7 @@ inquirer
 # Collaborators: \n\n ${response.collab} \n\n
 ## Contributing: \n\n ${response.contribute} \n\n
 ## Tests: \n\n ${response.contribute} \n\n
-## How to report issues or ask questions: \n\n Please get in touch via www.github/${response.gitUser}.com or contact directy via ${response.email}`;
+## How to report issues or ask questions: \n\n Please get in touch via www.github.com/${response.gitUser} or contact directy via ${response.email}`;
 
         fs.writeFile('README.md', userInfo,
             (err) =>

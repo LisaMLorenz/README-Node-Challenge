@@ -14,7 +14,7 @@
 
 ## Usage: 
 
- Please see this video. 
+ See video 
 
 
 ## License: 
@@ -22,22 +22,22 @@
  MIT
 ## Screenshot: 
 
- It's in the assets folder. 
+ See screenshot 
 
 
 # Collaborators: 
 
- Just me for now. 
+ Just me. 
 
 
 ## Contributing: 
 
- Please email me. 
+ Probably email :) 
 
 
 ## Tests: 
 
- Please email me. 
+ Probably email :) 
 
 
 ## How to report issues or ask questions: 
