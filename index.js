@@ -42,12 +42,17 @@ const questions = [
     },
     {
         type: 'input',
-        message: 'How can issues be reported?',
-        name: 'issue',
+        message: 'Please enter your GitHub username',
+        name: 'gitUser',
     },
     {
         type: 'input',
-        message: 'Would you like to disclose any license?',
+        message: 'Please enter your email',
+        name: 'email',
+    },
+    {
+        type: 'input',
+        message: 'Choose a license',
         name: 'license',
     },
 
@@ -63,14 +68,16 @@ inquirer
 
         const userInfo = 
         `# Project Title: ${response.projectTitle}
-# Description: \n\n ${response.description} \n\n
+# Description \n\n ${response.description} \n\n
+# Table of Contents \n\n
 ## Installation: \n\n ${response.install} \n\n
 ## Usage: \n\n ${response.usage} \n\n
+## License: \n\n ${response.license}
 ## Screenshot: \n\n ${response.screenshot} \n\n
 # Collaborators: \n\n ${response.collab} \n\n
-## How to contribute: \n\n ${response.contribute} \n\n
-## How to report issues: \n\n ${response.issue} \n\n
-## License: \n\n ${response.license}`;
+## Contributing: \n\n ${response.contribute} \n\n
+## Tests: \n\n ${response.contribute} \n\n
+## How to report issues or ask questions: \n\n Please get in touch via www.github/${response.gitUser}.com or contact directy via ${response.email}`;
 
         fs.writeFile('README.md', userInfo,
             (err) =>

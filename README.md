@@ -1,25 +1,45 @@
-# Project Title: Some Proj
-## Description: 
+# Project Title: README Power Plus Writer
+# Description 
 
- Not enough hours in the day for that!
+ Tailored prompts help you to create coherent README files for your project - all via the VS Code Terminal :) 
+
+
+# Table of Contents 
+
+
 ## Installation: 
 
- Read the README just some NODE
+ Install NODE and Inquirer 6.5.0 
+
+
 ## Usage: 
 
- Use it everytime you need a README mate
-## Screenshot: 
+ Please see this video. 
 
- ![technically should be a gif illustrating how the code functions](assets/images/screenshot.png)
-## Collaborators: 
 
- Just moi.
-## How to contribute: 
-
- Contact me on GitHub.
-## How to report issues: 
-
- Also contact me on GITHUB.
 ## License: 
 
- MIT license
+ MIT
+## Screenshot: 
+
+ It's in the assets folder. 
+
+
+# Collaborators: 
+
+ Just me for now. 
+
+
+## Contributing: 
+
+ Please email me. 
+
+
+## Tests: 
+
+ Please email me. 
+
+
+## How to report issues or ask questions: 
+
+ Please get in touch via www.github/LMLorenz.com or contact directy via hej@frau-lorenz.de
