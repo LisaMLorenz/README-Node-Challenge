@@ -1,45 +1,48 @@
-# Project Title: README Power Plus Writer
-# Description 
+# README Power Plus Writer
 
- Tailored prompts help you to create coherent README files for your project - all via the VS Code Terminal :) 
+## Description
 
+Tailored prompts help you to create coherent README files
 
-# Table of Contents 
+## Table of Contents
 
+* [Installation](#installation)
+* [Usage](#usage)
+* [License](#license)
+* [Screenshot](#screenshot)
+* [Collaborators](#collaborators)
+* [Contributing](#contributing)
+* [Tests](#tests)
+* [Questions](#questions)
 
-## Installation: 
+## Installation
 
- Install NODE and Inquirer 6.5.0 
+ for your project - all via the VS Code Terminal :) 
 
-
-## Usage: 
-
- See video 
-
-
-## License: 
-
- MIT
-## Screenshot: 
-
- See screenshot 
+## Usage
 
 
-# Collaborators: 
 
- Just me. 
+## License
 
+MIT
 
-## Contributing: 
-
- Probably email :) 
+## Screenshot
 
 
-## Tests: 
 
- Probably email :) 
+## Collaborators
 
 
-## How to report issues or ask questions: 
 
- Please get in touch via www.github/LMLorenz.com or contact directy via hej@frau-lorenz.de
+## Contributing
+
+
+
+## Tests
+
+undefined
+
+## Questions
+
+Please get in touch via [GitHub](https://github.com/LMLorenz) or contact directly via hej@frau-lorenz.de.

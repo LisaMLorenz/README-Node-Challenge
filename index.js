@@ -59,32 +59,15 @@ const questions = [
 
 ];
 
-inquirer
-    .prompt(questions)
+// function to write README file
 
-    // function to write README file
-
-    .then((response) => {
+inquirer.prompt(questions).then((response) => {
         console.log(`Check out your README file`)
 
-        const userInfo = 
-        `# Project Title: ${response.projectTitle}
-# Description \n\n ${response.description} \n\n
-# Table of Contents \n\n
-## Installation: \n\n ${response.install} \n\n
-## Usage: \n\n ${response.usage} \n\n
-## License: \n\n ${response.license}
-## Screenshot: \n\n ${response.screenshot} \n\n
-# Collaborators: \n\n ${response.collab} \n\n
-## Contributing: \n\n ${response.contribute} \n\n
-## Tests: \n\n ${response.contribute} \n\n
-## How to report issues or ask questions: \n\n Please get in touch via www.github.com/${response.gitUser} or contact directy via ${response.email}`;
-
-        fs.writeFile('README.md', userInfo,
-            (err) =>
-                err ?
-                    console.error(err)
-                    : console.log('User\'s README logged'));
+        const markdown = generateMarkdown(response);
+        
+        fs.writeFile('README.md', markdown, (err) =>
+                err ? console.error(err) : console.log("User's README logged"));
     });
 
 
