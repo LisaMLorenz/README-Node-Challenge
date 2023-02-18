@@ -54,7 +54,7 @@ const questions = [
         type: 'list',
         message: 'Would you like to disclose any license?',
         name: 'license',
-        choices: ['None','MIT','Apache 2.0', 'GNU v3.0', 'BSD 2-Clause', 'BSD 3-Clause', 'Boost', 'Eclipse', 'Mozilla Public', 'The Unlicense']
+        choices: ['None','MIT','Apache 2.0', 'GNU v3.0', 'BSD 3-Clause', 'Boost', 'Eclipse', 'Mozilla Public', 'The Unlicense']
     },
 
 ];
