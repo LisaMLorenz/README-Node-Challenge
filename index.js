@@ -37,8 +37,8 @@ const questions = [
     },
     {
         type: 'input',
-        message: 'How can potential collaborators contribute to your project?',
-        name: 'contribute',
+        message: 'Describe what you have done to test the code',
+        name: 'tests',
     },
     {
         type: 'input',
@@ -61,10 +61,13 @@ const questions = [
 
 // function to write README file
 
+let licenseBadge = "";
+let licenseContent ="";
+
 inquirer.prompt(questions).then((response) => {
         console.log(`Check out your README file`)
 
-        const markdown = generateMarkdown(response);
+        const markdown = generateMarkdown(response, licenseBadge, licenseContent);
         
         fs.writeFile('README.md', markdown, (err) =>
                 err ? console.error(err) : console.log("User's README logged"));
