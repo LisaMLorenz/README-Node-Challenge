@@ -5,9 +5,10 @@ Tailored prompts help you to create coherent README files for your project - all
 # Summary Description
 This program will help you to write README files. The prompts it generates in the VS Code terminal make sure that you don't forget about essential information and streamline the content of all your projects. I hope you find it useful!
 
-## User Story
 
-### As an developer:
+## User Story
+
+### As a developer:
 
 - I want to use a template via the VS Code Terminal for creating README files
 - So that I can save time,
@@ -19,7 +20,6 @@ This program will help you to write README files. The prompts it generates in th
 - Can be used via VS Code Terminal
 - Creates a README file
 - Uses prompts
-
 
 ## Who is the target audience?
 - Anyone who wants to streamline their README files.
@@ -51,14 +51,16 @@ Node and Inquirer 6.5.0
 ## Usage
 
 GitHub Repo: https://github.com/LisaMLorenz/README-Node-Challenge
+
 Demo Video: https://youtu.be/Cm_pAYxG5wk
 
 ![gif of demo video that shows user input and dynamic README file generation](assets/images/README_Challenge_V1.gif)
 
+
 ![screenshot of this terminal in VS Code](assets/images/screenshot_vscode_terminal.png)
 
 
-### Task: Technical Requirements
+### Technical Requirements
 
 * Create a command-line application that accepts user input.
 * When a user is prompted for information, a high-quality README.md is created with:
