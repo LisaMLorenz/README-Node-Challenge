@@ -75,6 +75,21 @@ Here are a few more screenshots to illustrate how to get started. Make sure to u
 
 ![screenshot of this terminal in VS Code](assets/images/screenshot_vscode_terminal.png)
 
+Here's a snippet of the index.js file. Remember that you can make adjustments to change or add prompts.
+
+![screenshot of this terminal in VS Code](assets/images/screenshot_vscode_terminal04.png)
+
+How to link images from your assets folder:
+
+![screenshot of this terminal in VS Code](assets/images/screenshot_vscode_terminal01.png)
+
+
+
+This message confirms that the process is finished. Go check out your shiny new README.md file :)
+
+
+![screenshot of this terminal in VS Code](assets/images/screenshot_vscode_terminal03.png)
+
 
 ## This is what the app should do:
 
