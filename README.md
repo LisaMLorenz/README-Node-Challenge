@@ -13,7 +13,7 @@ Tailored prompts help you to create coherent README files for your project - all
 6. [Collaborators](#toc-collaborators)
 7. [Contribute](#toc-contribute)
 8. [Tests](#toc-tests)
-8. [FAQ](#toc-FAQ)
+8. [FAQ](#toc-faq)
 10. [Contact](#toc-contact)
 
 
@@ -124,7 +124,7 @@ During testing, we didn't encounter any issues or errors. The application perfor
 
 If you encounter any issues or bugs while using the application, please don't hesitate to report them by opening an issue in the GitHub repository. We'll do our best to address them promptly.
 
-## FAQ <a name="toc-FAQ"></a>
+## FAQ <a name="toc-faq"></a>
 
 1. What if I don't want to use all the sections in the README?
 - You can simply leave those sections blank or remove them from the generated README.
